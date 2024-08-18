@@ -57,4 +57,4 @@ Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 Contacto
-Si tienes preguntas o necesitas más información, puedes contactarme en [tuemail@dominio.com].
+Si tienes preguntas o necesitas más información, puedes contactarme en crcristian97.cc@gmail.com.
