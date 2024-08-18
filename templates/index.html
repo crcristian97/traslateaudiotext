@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio to Text Transcription</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Audio to Text Transcription</h1>
+        <form id="audioForm">
+            <label for="audio">Upload Audio File (Only WAV format is accepted):</label>
+            <input type="file" id="audio" name="audio" accept="audio/wav" required>
+            <div id="warningMessage" style="color: red; display: none;">
+                Only WAV files are accepted. Please upload a WAV file.
+            </div>
+            <button type="submit">Transcribe</button>
+        </form>
+        <div id="resultContainer">
+            <h2>Transcription Result:</h2>
+            <p id="transcriptionText"></p>
+        </div>
+    </div>
+    <script src="../static/js/app.js"></script>
+</body>
+</html>
